@@ -1,0 +1,20 @@
+{
+  "name": "popmotion-vue",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile": "babel src --out-dir lib",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "popmotion": "^7.2.3",
+    "vue": "^2.3.4"
+  },
+  "devDependencies": {
+    "@storybook/vue": "^3.2.0-alpha.6"
+  }
+}
